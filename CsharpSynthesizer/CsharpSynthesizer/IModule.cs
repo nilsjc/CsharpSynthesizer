@@ -8,6 +8,8 @@ namespace CsharpSynthesizer
 {
     interface IModule
     {
-        float Signal(float amp, int SampPoint, List<float> CVs);
+        float Signal(float amp, int SampPoint, float CV1);
+        float Signal(float amp, int SampPoint, float CV1, float CV2);
+        float Signal(float amp, int SampPoint, float CV1, float CV2, float CV3);
     }
 }
