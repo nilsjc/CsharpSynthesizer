@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpSynthesizer", "CsharpSynthesizer\CsharpSynthesizer.csproj", "{5A891054-D4E7-4510-BBC6-914856B6DB22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularSynth", "ModularSynth\ModularSynth.csproj", "{281A8927-C97A-4463-AFFB-C121C57844EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{5A891054-D4E7-4510-BBC6-914856B6DB22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A891054-D4E7-4510-BBC6-914856B6DB22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A891054-D4E7-4510-BBC6-914856B6DB22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{281A8927-C97A-4463-AFFB-C121C57844EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{281A8927-C97A-4463-AFFB-C121C57844EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{281A8927-C97A-4463-AFFB-C121C57844EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{281A8927-C97A-4463-AFFB-C121C57844EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E07578ED-05E7-4E16-819C-8CBDC1A8A0CF}
 	EndGlobalSection
 EndGlobal
